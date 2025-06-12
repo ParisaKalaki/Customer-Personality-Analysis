@@ -34,23 +34,25 @@ In competitive markets, retaining customers is more cost-effective than acquirin
 
 ## 📊 Visualizations
 
-Plots are available in the [`plots/`](plots/) directory:
+Key visual insights generated during the analysis are stored in the [`plots/`](plots/) directory:
 
-- `correlation_heat_map.png`
-- `box-plot.png`
-- `distribution-by-clusters.png`
-- `Age-distribution-by-cluster.png`
-- `campaign-accepted-each-cluster.png`
-- `education-by-clusters.png`
-- `household-size-by-cluster.png`
-- `income-vs-total-spent.png`
-- `marital-stauts-by-cluster.png`
-- `online-engagement-by-cluster.png`
-- `imbalnaced-target..png`
-- `ROC.png`
-- `learning-curve-RF.png`
-- `feature-importance-RF.png`
-- `model-performance-comparison.png`
+| Plot                                          | Description                                                    |
+| --------------------------------------------- | -------------------------------------------------------------- |
+| ![](plots/correlation_heat_map.png)           | Correlation heatmap to explore relationships between features. |
+| ![](plots/box-plot.png)                       | Box plot to detect outliers and understand distribution.       |
+| ![](plots/distribution-by-clusters.png)       | Cluster-wise distribution showing segment sizes.               |
+| ![](plots/Age-distribution-by-cluster.png)    | Age variation across customer segments.                        |
+| ![](plots/campaign-accepted-each-cluster.png) | Campaign acceptance patterns across clusters.                  |
+| ![](plots/education-by-clusters.png)          | Education levels per segment.                                  |
+| ![](plots/household-size-by-cluster.png)      | Household size comparison among clusters.                      |
+| ![](plots/income-vs-total-spent.png)          | Relationship between income and total spending.                |
+| ![](plots/marital-stauts-by-cluster.png)      | Marital status distribution by customer group.                 |
+| ![](plots/online-engagement-by-cluster.png)   | Digital activity variation per segment.                        |
+| ![](plots/imbalnaced-target..png)             | Imbalanced target visualization before SMOTE.                  |
+| ![](plots/ROC.png)                            | ROC curve for classifier performance.                          |
+| ![](plots/learning-curve-RF.png)              | Learning curve of the Random Forest classifier.                |
+| ![](plots/feature-importance-RF.png)          | Top features identified by Random Forest.                      |
+| ![](plots/model-performance-comparison.png)   | Comparison of multiple model performances.                     |
 
 ## 🛠️ Tech Stack
 
